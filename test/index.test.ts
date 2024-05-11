@@ -17,7 +17,7 @@ const issueCreatedBody = { body: "Thanks for opening this issue!" };
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const privateKey = fs.readFileSync(
-  path.join(__dirname, "fixtures/mock-cert.pem"),
+  path.join(__dirname, "fixtures/private-key.pem"),
   "utf-8",
 );
 
